@@ -18,3 +18,25 @@ This will allow them to improve their interpersonal relationships with their fam
 
 To clarify, we see this not as a replacement for their current methods of perception, but as an augmentation.
 
+## Solution
+The smart glasses are made up of four components: a Raspberry Pi 4 with a camera module, buzzer, software (Python), and a button for actuation. 
+
+This Raspberry Pi 4 captures an image when a button is pressed, which is sent to an API and returns a confidence interval of emotions. 
+
+We use this returned emotion to give feedback to the user, who may not ordinarily be able to perceive emotions as easily.
+
+We have implemented two feedback mechanisms – audio (text to speech clips) and a piezo buzzer. 
+
+The piezo buzzer signal is encoded in morse code, which has the advantage of being intelligible also to the deaf-blind, who primarily sense the world through tactile feedback, but we also have an audio option (and the user can then blend in with those who wear Airpods 24/7, like one of the team members).
+
+Due to hardware limitations, we were not able to procure a vibration / haptic buzzer, but we substituted it with the piezo buzzer, which can play tones. 
+
+In an ideal scenario, we would have used the haptic buzzer, as this increases the avenues for feedback.
+
+## What You'll Need
+- Python
+- Raspberry Pi
+- Raspberry Pi Camera
+- [Parallel Dots API Key for Emotion Vision](https://www.paralleldots.com/)
+- Grove Buzzer (optional - for the morse code)
+
