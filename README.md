@@ -37,6 +37,16 @@ In an ideal scenario, we would have used the haptic buzzer, as this increases th
 - Python
 - Raspberry Pi
 - Raspberry Pi Camera
+- Button
 - [Parallel Dots API Key for Emotion Vision](https://www.paralleldots.com/)
 - Grove Buzzer (optional - for the morse code)
 
+## How to run our code
+### Step 1 : Clone the Repository onto the Raspberry PI
+- Choose a suitable folder using cd.
+```git clone https://github.com/ExtremelySunnyYK/RaspberryPi-Emotion-Dectector.git```
+
+### Step 2 : Connect the Raspberry Pi Camera and Buzzer to the Rasp Berry Pi
+- You can google the instructions to install the components
+
+### step 3 : Click the button to run the Script
