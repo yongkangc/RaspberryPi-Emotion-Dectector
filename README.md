@@ -1,0 +1,2 @@
+# RaspberryPi-Emotion-Dectector
+Our smart glasses allow the visually impaired to recognise other people’s emotions through computer vision, emotion recognition and audio feedback. This will allow them to improve their interpersonal relationships with their family and friends by providing them a technologically assistive avenue to enable understand the world around them.  To clarify, we see this not as a replacement for their current methods of perception, but as an augmentation.
